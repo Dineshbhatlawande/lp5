@@ -1,0 +1,21 @@
+### Assignment No 1:
+
+copy all .java file in new folder and open four terminals in newly created folder.
+
+
+Open Terminal 1:
+
+    javac *.java
+    rmic AddServerImpl
+
+Open Terminal 2:
+
+    rmiregistry
+
+Open Terminal 3:
+
+    java AddServer
+
+Open Terminal 4:
+
+    java AddClient 127.0.0.1 5 8
